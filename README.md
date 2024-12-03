@@ -2,6 +2,28 @@
 
 This repository contains a 3D Convolutional Neural Network (3D CNN) implementation for **micro expression recognition**. The algorithm processes video datasets, performs recognition tasks, and offers both GUI and code-based methods for training and testing.
 
+## 3-Class Composite Dataset
+
+The model is trained and tested on a **3-class composite dataset** consisting of the following emotion classes:
+- **Negative**
+- **Positive**
+- **Surprise**
+
+The composite dataset is created by integrating data from the following micro-expression datasets:
+1. **[SAMM (Spontaneous Micro-expression Database)](https://www2.doc.ic.ac.uk/~ma1813/)**  
+   A dataset with high-resolution videos of micro-expressions captured under controlled lab conditions.
+   
+2. **[CASMEII (Chinese Academy of Sciences Micro-expression II)](http://fu.psych.ac.cn/CASME/casme2-en.php)**  
+   A well-known dataset containing spontaneous micro-expressions captured under strict illumination and experimental conditions.
+   
+3. **[CAS(ME)²](http://fu.psych.ac.cn/CASME/cas(me)2-en.php)**  
+   A refined dataset for micro-expression analysis with annotations for macro- and micro-expressions.
+   
+4. **[CASME3](http://casme.psych.ac.cn/)**  
+   An advanced dataset designed for analyzing micro-expressions with improved diversity and quality of videos.
+
+These datasets provide a diverse set of micro-expressions, enabling the model to generalize effectively across different individuals and scenarios.
+
 ## Folder Structure
 
 ### `data_processing_gui/`
