@@ -1,0 +1,10 @@
+PyQt5
+torch
+torchvision
+numpy
+opencv-python
+matplotlib
+mediapipe
+Pillow
+dlib
+concurrent

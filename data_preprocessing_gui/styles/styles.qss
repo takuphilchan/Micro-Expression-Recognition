@@ -1,0 +1,76 @@
+/* styles.qss */
+
+/* General QWidget styling */
+QWidget {
+    background-color: #f5f5f5; /* Light gray background for a modern touch */
+    color: #333333; /* Dark gray text color for readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+    font-size: 14px; /* Default font size */
+}
+
+/* QPushButton styling */
+QPushButton {
+    padding: 10px 20px; /* Padding for buttons */
+    background-color: #007bff; /* Vibrant blue background */
+    color: white;
+    border: none;
+    border-radius: 6px; /* Slightly rounded corners for a modern look */
+    font-weight: 500; /* Medium font weight for buttons */
+}
+
+QPushButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+QPushButton:pressed {
+    background-color: #003d7a; /* Even darker blue when pressed */
+}
+
+/* QLabel styling */
+QLabel {
+    font-size: 15px; /* Slightly larger font for better readability */
+    color: #444444; /* Darker gray for labels */
+}
+
+/* QSlider styling */
+QSlider::handle {
+    background: #007bff; /* Blue slider handle */
+    border: 2px solid #007bff;
+    width: 20px; /* Slightly wider handle */
+    margin: -8px 0;
+    border-radius: 10px; /* Rounded handle */
+}
+
+QSlider::add-page, QSlider::sub-page {
+    background: #e0e0e0; /* Light gray slider track */
+    border-radius: 4px;
+}
+
+QSlider::groove {
+    border: 1px solid #ccc; /* Light gray border around slider */
+    height: 8px; /* Thickness of slider */
+    border-radius: 4px; /* Rounded corners */
+}
+
+QSlider::add-page {
+    background: #e0e0e0; /* Light gray track before handle */
+}
+
+QSlider::sub-page {
+    background: #007bff; /* Blue track after handle */
+}
+
+/* QSpinBox styling */
+QSpinBox {
+    padding: 5px;
+    font-size: 14px;
+    width: 65px; /* Adjusted width for better fit */
+    border: 1px solid #ccc; /* Light gray border for consistency */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* QCheckBox styling */
+QCheckBox {
+    font-size: 14px;
+    color: #333333; /* Consistent dark gray text color */
+}
