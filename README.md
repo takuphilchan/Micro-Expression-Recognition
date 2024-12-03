@@ -12,6 +12,8 @@ The `data_processing_gui` folder contains a **Graphical User Interface (GUI)** f
 
 This GUI simplifies the process of dataset management and testing, making it accessible for users without requiring direct coding.
 
+![Dataset Extraction and Compilation](images/dataset_extraction_compilation.png)
+
 ### `training/`
 The `training` folder contains the files necessary for training the 3D CNN model. It provides two ways to train the model:
 
@@ -23,6 +25,8 @@ The `training` folder contains the files necessary for training the 3D CNN model
    - Alternatively, you can use the provided **Google Colab notebook** for training the model in the cloud, eliminating the need for local setup.
    - The Colab notebook offers a cloud-based environment for training, monitoring the model's progress, and evaluating its performance.
    - This is the preferred method for users with limited hardware resources or those who prefer not to manage local environments.
+
+![Model Testing](images/model_testing.png)
 
 ## Requirements
 
