@@ -3,7 +3,7 @@ import cv2
 import torch
 import random
 import numpy as np
-import PIL as Image
+from PIL import Image
 from torch.utils.data import Dataset
 
 class FullDatasetCache:
