@@ -10,13 +10,13 @@ The model is trained and tested on a **3-class composite dataset** consisting of
 - **Surprise**
 
 The composite dataset is created by integrating data from the following micro-expression datasets:
-1. **[SAMM (Spontaneous Micro-expression Database)](https://www2.doc.ic.ac.uk/~ma1813/)**  
+1. **[SAMM (Spontaneous Micro-expression Database)](https://e-space.mmu.ac.uk/617069/)**  
    A dataset with high-resolution videos of micro-expressions captured under controlled lab conditions.
    
-2. **[CASMEII (Chinese Academy of Sciences Micro-expression II)](http://fu.psych.ac.cn/CASME/casme2-en.php)**  
+2. **[CASMEII (Chinese Academy of Sciences Micro-expression II)](http://casme.psych.ac.cn/)**  
    A well-known dataset containing spontaneous micro-expressions captured under strict illumination and experimental conditions.
    
-3. **[CAS(ME)²](http://fu.psych.ac.cn/CASME/cas(me)2-en.php)**  
+3. **[CAS(ME)²](http://casme.psych.ac.cn/)**  
    A refined dataset for micro-expression analysis with annotations for macro- and micro-expressions.
    
 4. **[CASME3](http://casme.psych.ac.cn/)**  
