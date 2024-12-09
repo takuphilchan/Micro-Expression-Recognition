@@ -56,9 +56,3 @@ Before running the code, ensure that the required dependencies are installed. Yo
 
 ```bash
 pip install -r requirements.txt
-
-## Citation
-If you use this repository in your research or project, please cite it as follows:
-Author: Phillip Takudzwa Chananda. "3DCNN Microexpression Recognition Algorithm". Version 1.0.0, 2024.
-Available at: https://github.com/takuphilchan/Micro-Expression-Recognition.git
-
